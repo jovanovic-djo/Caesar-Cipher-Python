@@ -21,7 +21,7 @@ while True:
         print(caesar_cipher(text, shift))
     elif action.lower() == "d":
         text = input("Enter Text: ")
-        shift = int(input("Enter shift: "))
+        shift = int(input("Enter Shift: "))
         print(caesar_cipher(text, shift, decrypt=True))
     elif action.lower() == "q":
         break
